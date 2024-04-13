@@ -26,6 +26,11 @@
         <optional>false</optional>
         <version>1.12.387</version>
     </dependency>
+    <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-handler</artifactId>
+        <version>4.1.94.Final</version>
+    </dependency>
 </dependencies>
 
     <build>
