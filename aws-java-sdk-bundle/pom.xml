@@ -76,7 +76,7 @@
                             <shadedPattern>com.amazonaws.thirdparty.apache.codec</shadedPattern>
                         </relocation>
                         <relocation>
-                            <pattern>software.amazon.ion</pattern>
+                            <pattern>com.amazon.ion</pattern>
                             <shadedPattern>com.amazonaws.thirdparty.ion</shadedPattern>
                         </relocation>
                         <relocation>
