@@ -31,6 +31,11 @@
         <artifactId>netty-handler</artifactId>
         <version>4.1.94.Final</version>
     </dependency>
+    <dependency>
+        <groupId>com.amazon.ion</groupId>
+        <artifactId>ion-java</artifactId>
+        <version>1.10.5</version>
+    </dependency>
 </dependencies>
 
     <build>
@@ -47,7 +52,7 @@
                             <include>com.fasterxml.jackson.dataformat:jackson-dataformat-cbor</include>
                             <include>org.apache.httpcomponents:*</include>
                             <include>commons-codec:commons-codec</include>
-                            <include>software.amazon.ion:ion-java</include>
+                            <include>com.amazon.ion:ion-java</include>
                             <include>commons-logging:commons-logging</include>
                             <include>io.netty:*</include>
                             <include>com.amazonaws:*</include>
@@ -71,7 +76,7 @@
                             <shadedPattern>com.amazonaws.thirdparty.apache.codec</shadedPattern>
                         </relocation>
                         <relocation>
-                            <pattern>software.amazon.ion</pattern>
+                            <pattern>com.amazon.ion</pattern>
                             <shadedPattern>com.amazonaws.thirdparty.ion</shadedPattern>
                         </relocation>
                         <relocation>
